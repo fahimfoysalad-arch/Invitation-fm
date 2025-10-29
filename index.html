@@ -9,7 +9,162 @@
   </head>
     
   <body>
-  
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forensic Medicine Class Ending Party</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font and base styles */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0fdfa; /* Light Teal background */
+        }
+        .invitation-gradient {
+            /* Changed gradient colors slightly to reflect a more serious but celebratory tone */
+            background: linear-gradient(135deg, #374151 0%, #1f2937 100%); /* Dark Gray/Blue for a professional field */
+            box-shadow: 0 10px 25px -3px rgba(31, 41, 55, 0.4);
+        }
+        .schedule-item:not(:last-child) {
+            border-left: 2px solid #99f6e4; /* Light mint line for timeline effect */
+            padding-left: 1rem;
+            margin-left: 0.5rem;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'teal-main': '#06b6d4',
+                        'teal-dark': '#0f7690',
+                        'accent-yellow': '#facc15',
+                        'accent-gray': '#374151',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="flex items-center justify-center min-h-screen p-4">
+
+    <!-- Invitation Card Container -->
+    <div class="w-full max-w-lg mx-auto bg-white rounded-3xl overflow-hidden shadow-2xl transform transition duration-500 hover:scale-[1.01]">
+        
+        <!-- Header Section -->
+        <div class="invitation-gradient p-8 text-center text-white">
+            <h1 class="text-3xl font-extrabold tracking-tight mb-2">
+                Forensic Medicine
+            </h1>
+            <h2 class="text-5xl font-extrabold tracking-tighter mb-1 text-accent-yellow">
+                Class Ending Party
+            </h2>
+            <p class="text-lg font-semibold mt-2">
+                A Grand Invitation from the <b> <p style="color: #F6BE00 ;">  24th Batch 🤞 </p> </b>
+            </p>
+            <div class="text-6xl mt-4 animate-pulse">
+                🎓
+            </div>
+        </div>
+
+        <!-- Details Section -->
+        <div class="p-6 md:p-8 space-y-6">
+            
+            <!-- Invitees -->
+            <div class="text-center">
+                <p class="text-gray-500 font-medium text-sm uppercase tracking-wider mb-1">
+                    You're Invited
+                </p>
+                <p class="text-3xl font-bold text-accent-gray">
+                    All Students of 2nd Phase
+                </p>
+            </div>
+
+            <!-- Date and Time -->
+            <div class="flex flex-col sm:flex-row justify-around items-center space-y-4 sm:space-y-0 sm:space-x-4 border-b pb-4 border-gray-100">
+                <div class="text-center p-3 bg-gray-50 rounded-xl w-full sm:w-1/2 shadow-inner">
+                    <p class="text-sm font-semibold text-gray-600 uppercase">Date</p>
+                    <p class="text-xl font-bold text-accent-gray">Thursday, October 29, 2025</p>
+                </div>
+                <div class="text-center p-3 bg-gray-50 rounded-xl w-full sm:w-1/2 shadow-inner">
+                    <p class="text-sm font-semibold text-gray-600 uppercase">Time</p>
+                    <p class="text-xl font-bold text-accent-gray">7:30 PM Onwards</p>
+                </div>
+            </div>
+
+            <!-- Venue -->
+            <div class="text-center pt-4">
+                <p class="text-gray-500 font-medium text-sm uppercase tracking-wider mb-2">
+                    Venue
+                </p>
+              <p> Click on </p>
+                <div class="flex items-center justify-center space-x-2">
+                    <svg class="w-6 h-6 text-accent-yellow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.828 0l-4.243-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                    <p class="text-2xl font-bold text-accent-gray">
+                        <a href="https://maps.app.goo.gl/y5yupK8W8kwFtwbJA" 
+   target="_blank" 
+   rel="noopener"
+   style="text-decoration:none; font-weight:bold;">
+   WF Restaurant
+</a>
+                    </p>
+                </div>
+                <p class="text-gray-500 italic mt-1">
+                    SS Road, Sirajganj
+                </p>
+            </div>
+
+            <!-- Schedule -->
+            <div class="pt-4">
+                <h3 class="text-xl font-bold text-accent-gray border-b-2 border-accent-yellow inline-block pb-1 mb-4">
+                    The Program Schedule
+                </h3>
+                <ol class="space-y-3 pl-0 list-none">
+                    <li class="schedule-item relative">
+                        <span class="absolute -left-3 top-0 h-4 w-4 rounded-full bg-accent-gray border-2 border-white"></span>
+                        <p class="text-lg font-semibold text-gray-700">7:30 - 8:00 PM</p>
+                        <p class="text-gray-500">Attend the program & Socializing</p>
+                    </li>
+                    <li class="schedule-item relative">
+                        <span class="absolute -left-3 top-0 h-4 w-4 rounded-full bg-accent-gray border-2 border-white"></span>
+                        <p class="text-lg font-semibold text-gray-700">8:00 - 8:30 PM</p>
+                        <p class="text-gray-500">Guidelines by Honorable Teacher</p>
+                    </li>
+                    <li class="schedule-item relative">
+                        <span class="absolute -left-3 top-0 h-4 w-4 rounded-full bg-accent-gray border-2 border-white"></span>
+                        <p class="text-lg font-semibold text-gray-700">8:30 - 10:00 PM</p>
+                        <p class="text-gray-500">Cultural Program & Fun Activities</p>
+                    </li>
+                    <li class="schedule-item relative">
+                        <span class="absolute -left-3 top-0 h-4 w-4 rounded-full bg-accent-gray border-2 border-white"></span>
+                        <p class="text-lg font-semibold text-gray-700"> 10:00 - 10:30 PM</p>
+                        <p class="text-gray-500">Delicious Dinner</p>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- Footer/RSVP Section -->
+        <div class="bg-gray-100 p-6 text-center rounded-b-3xl">
+            <p class="text-lg font-medium text-accent-gray">
+                Let's celebrate the end of a great phase!
+            </p>
+          
+            <p class="text-sm text-gray-500 mt-1">
+                Your presence is mandatory for a successful send-off.
+              </p>
+    
+      <p style="font-size:12px; color:gray; text-align:right; margin:0;">
+
+  Foysal
+
+</p>
+      </div>
+</body>
+</html>
     
   </body>
   
